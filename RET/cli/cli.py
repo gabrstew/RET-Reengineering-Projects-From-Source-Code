@@ -144,7 +144,7 @@ def _validate_project_path(project_path: str) -> Path:
 
 #function helpers for printing and errors
 
-#this is made for testing purposes, so that we can capture the output of the CLI and assert on it in tests
+#this is for showing the outputs (errors or no) inside of the terminal
 def _print(self, message: str) -> None:
     print(message, file= self.stdout)
 
